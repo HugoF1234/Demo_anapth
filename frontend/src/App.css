@@ -278,12 +278,13 @@
 /* ── Lexia Intelligence body ── */
 
 .wf-lexia-body {
-  padding: 4px 0 0 34px;
+  padding: 4px 0 0 0;
   height: 20px;
   display: flex;
   align-items: center;
   gap: 6px;
   overflow: hidden;
+  width: 100%;
 }
 
 .wf-lexia-done {
@@ -316,7 +317,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 120px;
+  max-width: 140px;
 }
 
 .lexia-anim-text--visible {
