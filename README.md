@@ -6,7 +6,6 @@ Application de dictée médicale pour anatomopathologistes. Dictez au micro, obt
 
 - **Python 3.9+** (inclus avec macOS / Xcode CLI tools)
 - **Node.js 18+** et **npm** : `brew install node`
-- Clés API Mistral (Voxtral + Mistral Large) : [console.mistral.ai](https://console.mistral.ai)
 
 ## Installation rapide
 
@@ -15,16 +14,12 @@ Application de dictée médicale pour anatomopathologistes. Dictez au micro, obt
 git clone https://github.com/HugoF1234/Demo_anapath.git
 cd Demo_anapath
 
-# 2. Configurer les clés API
 cp .env.example .env
-# Éditer .env et renseigner VOXTRAL_API_KEY et MISTRAL_API_KEY
 
-# 3. Installer les dépendances backend
 cd backend
 pip3 install -r requirements.txt
 cd ..
 
-# 4. Installer les dépendances frontend
 cd frontend
 npm install
 cd ..
